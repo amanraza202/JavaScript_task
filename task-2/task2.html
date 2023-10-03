@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    .container h2 {
+        margin-right: 25%;
+    }
+
+    .a {
+        display: flex;
+    }
+    .a a{
+        margin-right: 27%;
+    }
+    .button{
+        display: flex;
+    }
+    .button button{
+        margin-right: 26.5%;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2>Page 1</h2>
+        <h2>Page 2</h2>
+        <h2>Page 3</h2>
+    </div>
+    <div class="a">
+        <a href="">Page2</a> <br>
+        <a href="">Page3</a> <br>
+        <a href="">Page2</a> <br>
+
+    </div>
+    <div class="button">
+        <button class="btn1" onclick="next()">Next</button>
+        <button class="btn2" onclick="next1()">Next</button>
+        <button class="btn3" onclick="previous()">Previous</button>
+    </div>
+</body>
+<script>
+function next(){
+    window.location.href = "page2.html";
+}
+function next1(){
+    window.location.href = "page3.html";
+}
+function previous(){
+    window.location.href = "page2.html";
+}
+</script>
+
+</html>
